@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,7 +36,7 @@ public class EnemyController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         hitBox = transform.Find("Hitbox");
-
+        
         // Creo la maquina de estado finita
         mFSM = new FSM<EnemyController>(new Enemy.IdleState(this));
         mFSM.Begin();
@@ -49,10 +50,15 @@ public class EnemyController : MonoBehaviour
     public void SetAttackingEnd(){
         AttackingEnd = true;
     }
-
-    public void OnTriggerEnter2D(Collider2D other){
-        
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Playerr"))
+        {
+            GameManager.Instance.PlayerDamage();
+            Debug.Log("LE PEGUE AL PLAYER");
+        }
     }
 
-    
+
 }

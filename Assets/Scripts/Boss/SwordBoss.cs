@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 public class SwordBoss : MonoBehaviour
 {
@@ -7,13 +8,13 @@ public class SwordBoss : MonoBehaviour
     private bool isAttacking = false;
 
    private void OnTriggerEnter2D(Collider2D collision)
-{
-    if (isAttacking && collision.CompareTag("Player"))
     {
-        GameManager.Instance.PlayerDamage();
-        Debug.Log("LE PEGUE AL PLAYER MANITO");
+        if (collision.CompareTag("Playerr"))
+        {
+            Debug.Log("LE PEGUE AL PLAYER MANITO");
+            GameManager.Instance.PlayerDamage();
+        }
     }
-}
 
     public void StartAttack()
     {

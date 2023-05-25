@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Enemy
@@ -25,7 +26,6 @@ namespace Enemy
             Debug.Log("Entering Attacking State");
             mEnemyController.animator.SetTrigger("Attack");
             mEnemyController.hitBox.gameObject.SetActive(true);
-
         }
 
         public override void OnExit()
@@ -34,6 +34,14 @@ namespace Enemy
             mEnemyController.hitBox.gameObject.SetActive(false);
         }
 
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag("Playerr"))
+            {
+                GameManager.Instance.PlayerDamage();
+                Debug.Log("LE PEGUE AL PLAYER");
+            }
+        }
         public override void Update(float deltaTime)
         { }
     }

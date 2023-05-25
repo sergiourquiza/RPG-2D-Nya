@@ -14,6 +14,10 @@ public class SwordAttack : MonoBehaviour
             GameManager.Instance.PlayerHitBoss();
             Debug.Log("LE PEGUE AL BOSS");
         }
+        if (isAttacking && collision.CompareTag("NPC"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
     public void StartAttack()
