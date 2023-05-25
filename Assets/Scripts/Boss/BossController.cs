@@ -11,6 +11,7 @@ public class BossController : MonoBehaviour
     public float Speed = 5f;
     public float AttackDistance = 0.5f;
     
+    
 
     #endregion
 
@@ -28,6 +29,7 @@ public class BossController : MonoBehaviour
 
     #region Private Properties
     private FSM<BossController> mFSM;
+    private SwordBoss swordBoss;
 
     #endregion
 
@@ -36,6 +38,8 @@ public class BossController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         hitBox = transform.Find("Hitbox");
+        swordBoss = GetComponent<SwordBoss>();
+
 
         // Creo la maquina de estado finita
         mFSM = new FSM<BossController>(new Boss.BossIdleState(this));
@@ -51,9 +55,10 @@ public class BossController : MonoBehaviour
         AttackingEnd = true;
     }
 
-    public void OnTriggerEnter2D(Collider2D other){
-        
-    }
+    
+
+
+}
 
     
-}
+
