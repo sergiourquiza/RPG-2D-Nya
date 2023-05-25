@@ -1,4 +1,4 @@
-using System;
+    using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,7 +17,11 @@ public class PlayerMovement : MonoBehaviour
     private Animator mAnimator;
     private PlayerInput mPlayerInput;
     private Transform hitBox;
-    public Slider healthBar;
+    private CapsuleCollider2D mCollider;
+    private SwordAttack swordAttack;
+    private Slider mSlider;
+
+
 
     private void Start()
     {
@@ -25,9 +29,15 @@ public class PlayerMovement : MonoBehaviour
         mAnimator = GetComponent<Animator>(); 
         mPlayerInput = GetComponent<PlayerInput>(); 
         hitBox = transform.Find("Hitbox");
-        ConversationManager.Instance.OnConversationStop += OnConversationStopDelegate;     
+        ConversationManager.Instance.OnConversationStop += OnConversationStopDelegate;
+
+        swordAttack = GetComponent<SwordAttack>();
+
     
     }
+
+    
+
 
     private void OnConversationStopDelegate()
     {
@@ -85,7 +95,15 @@ public class PlayerMovement : MonoBehaviour
             {
                 mAnimator.SetTrigger("Attack");
                 hitBox.gameObject.SetActive(true);
+                swordAttack.StartAttack();
+                Debug.Log("Attack");
+
             }
+            else{
+                swordAttack.StopAttack();
+
+            }
+            
         }
 
         public void DisableHitBox(){
@@ -99,8 +117,6 @@ public class PlayerMovement : MonoBehaviour
                 ConversationManager.Instance.StartConverstaion(conversation);
            } 
         }
-
-// HACERLE DAÑO A LOS MOCOS
     
 
 }
