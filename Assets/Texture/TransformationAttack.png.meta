@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 62de8434a3f2ccf48bcd241e38b430ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TransformationAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735d7874f72ce894b89e070ef572fe30
+      internalID: -433858884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 189.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae10a1263b9b8d748a564eb042a9fc8f
+      internalID: 345041429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 189.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ae956ea4009f6449b4cae7d84d27ea
+      internalID: -1993002036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657a12f22a80c974fbfbe28090bd3a44
+      internalID: -632744866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 162.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5e879a241dc0544bd22741f2732f66
+      internalID: 998068486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 162.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7a546198902cc479507196a4c44218
+      internalID: 967946399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a30f0af287ed44eaaa8374eac9c57c
+      internalID: 2126847421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 135.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b37f074ecd73f4198ce226472233ee
+      internalID: 559357763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 135.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7139644b45dd9c4448e622bca12054d7
+      internalID: 710485265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e9ccb25542a1042bcc9cfb40bbb2bb
+      internalID: 34682550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 108.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9f3bb53174f4942bad6b2cfe297675
+      internalID: 1405213278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TransformationAttack_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 108.875
+        width: 27.666666
+        height: 27.125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e9b77e2f4472d45820c42564a5771b
+      internalID: 1740615448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TransformationAttack_19: 65862927
+      TransformationAttack_21: -545392538
+      TransformationAttack_20: 2139293399
+      TransformationAttack_6: 2126847421
+      TransformationAttack_17: -1230291589
+      TransformationAttack_16: 305603422
+      TransformationAttack_3: -632744866
+      TransformationAttack_18: 1652259397
+      TransformationAttack_22: -1060545006
+      TransformationAttack_23: 760317260
+      TransformationAttack_24: 1390566191
+      TransformationAttack_11: 1740615448
+      TransformationAttack_2: -1993002036
+      TransformationAttack_9: 34682550
+      TransformationAttack_15: -74000336
+      TransformationAttack_0: -433858884
+      TransformationAttack_4: 998068486
+      TransformationAttack_7: 559357763
+      TransformationAttack_13: -550099781
+      TransformationAttack_8: 710485265
+      TransformationAttack_12: -162083442
+      TransformationAttack_10: 1405213278
+      TransformationAttack_14: 55168809
+      TransformationAttack_1: 345041429
+      TransformationAttack_5: 967946399
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
