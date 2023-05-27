@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public event EventHandler OnBossDamage;
     public event EventHandler OnPlayerHitBoss;
     public event EventHandler OnPlayerHitNPC;
+    private Animator mAnimator;
 
 
     public float PlayerHealth = 100f;

@@ -8,6 +8,7 @@ TagManager:
   - Boss
   - HealthBar
   - Playerr
+  - Hada
   layers:
   - Default
   - TransparentFX

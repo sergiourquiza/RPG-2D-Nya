@@ -14,6 +14,10 @@ public class SwordBoss : MonoBehaviour
             Debug.Log("LE PEGUE AL PLAYER MANITO");
             GameManager.Instance.PlayerDamage();
         }
+        else if (collision.CompareTag("NPC"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
     public void StartAttack()
